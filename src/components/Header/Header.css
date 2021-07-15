@@ -1,0 +1,18 @@
+.HeaderContainer {
+    background-color: black;
+    display:flex;
+    align-items:center;
+  justify-content:center;
+  flex-direction: column;
+    
+}
+.Title {
+    color:White;
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+
+.button{
+  margin-bottom: 5px;
+}

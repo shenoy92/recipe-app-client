@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-image: url("https://envato-shoebox-0.imgix.net/d7f2/aaa1-52ef-4350-8b70-5c8d5a43c490/pasta15_b291.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=6ac0c55dcb0ab7b124c08eeb8d42a441");
+}
+
+
+li,p ,h3,span,h2,h1, div{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.recipeName{
+    font-size: 30px;
+}
+
+
+.body {
+    background-color: #450057;
+    padding: 30px 15px 30px 15px;
+}
+
+
+
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Container>div{
+    justify-content: space-between;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.2s all;
+    background-color: #fff;
+    flex-basis: 240px;
+}
+
+
+ .Container>div:hover{
+    z-index:1;
+    transform:scale(1.03)
+} 
+
+.name-time {
+    display: block;
+}
+
+.pic{
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    padding:5px;
+}
+
+.itemContainer{
+    display:flex;
+    margin: 10px 5px;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4caf50;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    min-height: 89px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Container>div{
+        flex-basis: 100%;
+        margin: 0 0 15px 0;
+    }
+    #delete {
+        margin-left: 170px;
+    }
+}
